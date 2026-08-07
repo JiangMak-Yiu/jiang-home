@@ -1,0 +1,13 @@
+# 数据与运行时文件(数据库、初始密码、备份)
+data/
+
+# 服务器安全配置(包含绝对路径,勿公开)
+.user.ini
+.htaccess
+
+# Let's Encrypt 证书验证文件
+.well-known/
+
+# 系统文件
+.DS_Store
+*.log
