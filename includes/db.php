@@ -114,7 +114,7 @@ function init_schema(PDO $pdo): void
         $tipFile = dirname(DB_PATH) . '/初始密码.txt';
         file_put_contents(
             $tipFile,
-            "江江.com 后台初始登录信息\n============================\n账号: admin\n密码: {$pass}\n\n登录地址: https://江江.com/admin/\n登录后请立即在「修改密码」中更换!\n",
+            "测试站点后台初始登录信息\n============================\n账号: admin\n密码: {$pass}\n\n登录地址: https://你的域名/admin/\n登录后请立即在「修改密码」中更换!\n",
             LOCK_EX
         );
     }
